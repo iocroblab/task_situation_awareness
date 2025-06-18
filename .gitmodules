@@ -1,0 +1,3 @@
+[submodule "ontology-pddl-generation"]
+	path = ontology-pddl-generation
+	url = git@github.com:iocroblab/ontology-pddl-generation.git
