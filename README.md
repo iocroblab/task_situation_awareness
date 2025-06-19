@@ -12,7 +12,7 @@ The READMEs in each repository have the instructions to build and test the tools
 The figure shows the schema of the system:
 
 <p align="center">
-  <img src="docs/onto-llm.png" width="500"/>
+  <img src="docs/onto-llm.png" width="700"/>
   <br>
   <em>Figure 1. Obstacle avoidance example with an orientation constraint.</em>
 </p>
