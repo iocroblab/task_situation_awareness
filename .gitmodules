@@ -1,6 +1,6 @@
 [submodule "ontology-pddl-generation"]
 	path = ontology-pddl-generation
 	url = git@github.com:iocroblab/ontology-pddl-generation.git
-[submodule "ontology_instantiation_with_llms"]
-	path = ontology_instantiation_with_llms
-	url = git@github.com:iocroblab/ontology_instantiation_with_llms.git
+[submodule "Ontology_population_paper"]
+	path = Ontology_population_paper
+	url = git@github.com:iocroblab/Ontology_population_paper.git
