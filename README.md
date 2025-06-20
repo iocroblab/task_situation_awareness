@@ -9,7 +9,12 @@ It contains two repositories:
 
 The READMEs in each repository have the instructions to build and test the tools.
 
-The figure shows the schema of the system:
+The figure below shows the schema of the system:
+
+- A situation ontology has been defined in order to help the robot to understand the scene, i.e. to have ***situation awareness**. The ontology includes concepts for describing the relative location between objects, the ontology instances being provided by a smart perception module designed to perceive the environment (i.e., detect objects and their poses) and to perform geometric reasoning to determine the relative positions (blue blocks in the figure). 
+- To address ambiguity and incompleteness in perception, however, the proposal also integrates LLMs to populate ontologies from natural language user inputs (orange blocks in the figure). The populated ontology is then processed using OWL-based reasoning tools, enabling robust world modelling.
+
+- The LLM instantiation feature is also exploited to enable the user to define the goal state of a manipulation task. The approach assumes that the PDDL domain is fixed and given, and it uses this domain, together with the situation ontology, to generate the PDDL problem file. This is done by matching ontological concepts to PDDL types and predicates, resulting in a problem file that includes the PDDL objects, the initial state, and the goal state (red blocks in the figure). In this way, the robot is equipped with the **task awareness** necessary to solve the task using classical task planners. 
 
 <p align="center">
   <img src="docs/onto-llm.png" width="700"/>
