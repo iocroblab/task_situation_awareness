@@ -19,7 +19,7 @@ The figure below shows the schema of the system:
 <p align="center">
   <img src="docs/onto-llm.png" width="700"/>
   <br>
-  <em>Figure 1. Obstacle avoidance example with an orientation constraint.</em>
+  <em>Knowledge-based framework for task and situation awareness</em>
 </p>
 
 A detailed description of this contribution is described in the paper [Robot Situation and Task Awareness using Large Language Models and Ontologies](docs/LLM_Onto_paper.pdf) by V. Molina, O. Ruiz-Celada, R. Suárez, J. Rosell and I. Zaplana, accepted to the 2025 Workshop on Safe and Sustainable AI-Aided Manufacturing (S2AIM).
