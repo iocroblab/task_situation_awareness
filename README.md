@@ -4,7 +4,7 @@ This *metarepo* has been prepared to illustrate the work done in the [SMARTHANDL
 
 It contains two repositories:
 
-- The [Ontology instantiation with LLMs](https://github.com/iocroblab/ontology_instantiation_with_llms) tool to allow the user to instantiate a situation ontology with information of the scene.
+- The [Ontology instantiation with LLMs](https://github.com/iocroblab/Ontology_population_paper) tool to allow the user to instantiate a situation ontology with information of the scene.
 - The [Ontology PDDL Generation](https://github.com/iocroblab/ontology-pddl-generation) tool to automatically generate the PDDL problem file from the situation ontology.
 
 The READMEs in each repository have the instructions to build and test the tools.
