@@ -23,3 +23,5 @@ The figure below shows the schema of the system:
 </p>
 
 A detailed description of this contribution is described in the paper [Robot Situation and Task Awareness using Large Language Models and Ontologies](docs/LLM_Onto_paper.pdf) by V. Molina, O. Ruiz-Celada, R. Suárez, J. Rosell and I. Zaplana, accepted to the 2025 Workshop on Safe and Sustainable AI-Aided Manufacturing (S2AIM).
+
+A video with a summary of these contributions can be found [here](docs/d5.2_onto_llm_low_ress.mp4).
